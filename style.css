@@ -17,3 +17,15 @@ footer {
     width: 100%;
 }
 
+#barChart {
+display: grid;
+grid-template-columns: repeat(40, 1fr);
+gap: 3px;
+}
+
+.bar {
+    background-color: blue;
+    outline: 1px solid black;
+
+    height: 200px;
+}
